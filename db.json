@@ -77,7 +77,7 @@
         "weapon type": "Knife",
         "knife type": "Bayonet",
         "skin": "Lore",
-        "price": 323.11,
+        "price": 313.61,
         "condition": "Battle-Scarred"
         }
     ],
@@ -130,7 +130,7 @@
         },
         {
             "id": 10,
-            "Pattern": "252627",
+            "Pattern": "263",
             "float": 0.649931252003
         }
     ]
