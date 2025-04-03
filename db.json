@@ -1,4 +1,87 @@
 {
+    "skins": [
+      {
+        "id": 1,
+        "weapon type": "knife",
+        "knife type": "Karambit",
+        "skin": "Doppler",
+        "price": 12754.72,
+        "condition": "Factory New",
+        "phase": "Phase 1"
+      },
+      {
+        "id": 2,
+        "weapon type": "knife",
+        "knife type": "Butterfly",
+        "skin": "Autotronic",
+        "price": 1881.14,
+        "condition": "Minimal Wear"
+      },
+      {
+        "id": 3,
+        "weapon type": "knife",
+        "knife type": "M9 Bayonet",
+        "skin": "Crimson Web",
+        "price": 280.41,
+        "condition": "Field-Tested"
+        },
+        {
+        "id": 4,
+        "weapon type": "knife",
+        "knife type": "Huntsman",
+        "skin": "Bright Water",
+        "price": 144.47,
+        "condition": "Minimal Wear"
+        },
+        {
+        "id": 5,
+        "weapon type": "Sniper rifle",
+        "sniper type": "AWP",
+        "skin": "Dragon Lore",
+        "price": 15753.57,
+        "condition": "Factory New"
+        },
+        {
+        "id": 6,
+        "weapon type": "Rifle",
+        "Rifle type": "Ak-47",
+        "skin": "Case Hardened",
+        "price": 92483.70,
+        "condition": "Minimal Wear"
+        },
+        {
+        "id": 7,
+        "weapon type": "Rifle", 
+        "Rifle type": "M4A4",
+        "skin": "Howl",
+        "price": 20000.00,
+        "condition": "Factory New"
+        },
+        {
+        "id": 8,
+        "weapon type": "Knife",
+        "knife type": "Falchion",
+        "skin": "Gamma Doppler",
+        "price": 1027.66,
+        "condition": "Factory New"
+        },
+        {
+        "id": 9,
+        "weapon type": "Knife",
+        "knife type": "Shadow Daggers",
+        "skin": "Slaughter",
+        "price": 166.80,  
+        "condition": "Factory New"
+        },
+        {
+        "id": 10,
+        "weapon type": "Knife",
+        "knife type": "Bayonet",
+        "skin": "Lore",
+        "price": 323.11,
+        "condition": "Battle-Scarred"
+        }
+    ],
     "Float and pattern": [
       {
         "id": 1,
@@ -51,4 +134,4 @@
             "float": 0.649931252003
         }
     ]
-}
+  }
