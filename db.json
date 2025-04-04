@@ -95,52 +95,52 @@
     "Float_and_pattern": [
       {
         "id": 1,
-        "Pattern": "534",
+        "pattern": "534",
         "float": 0.035707887262
       },
       {
             "id": 2,
-            "Pattern": "88",
+            "pattern": "88",
             "float": 0.096982210875
         },
         {
             "id": 3,
-            "Pattern": "85",
+            "pattern": "85",
             "float": 0.129335984588
         },
         {
             "id": 4,
-            "Pattern": "797",
+            "pattern": "797",
             "float": 0.141841828823
         },
         {
             "id": 5,
-            "Pattern": "296",
+            "pattern": "296",
             "float": 0.031255863607
         },
         {
             "id": 6,
-            "Pattern": "640",
+            "pattern": "640",
             "float": 0.095098018646
         },
         {
             "id": 7,
-            "Pattern": "136",
+            "pattern": "136",
             "float": 0.009136962704
         },
         {
             "id": 8,
-            "Pattern": "242",
+            "pattern": "242",
             "float": 0.027542160824
         },
         {
             "id": 9,
-            "Pattern": "32",
+            "pattern": "32",
             "float": 0.032092910260
         },
         {
             "id": 10,
-            "Pattern": "263",
+            "pattern": "263",
             "float": 0.649931252003
         }
     ]
