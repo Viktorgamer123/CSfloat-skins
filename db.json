@@ -2,7 +2,6 @@
     "skins": [
       {
         "id": 1,
-        "img": "280x210.png",
         "weapon type": "knife",
         "knife type": "Karambit",
         "skin": "Doppler",
@@ -20,7 +19,6 @@
       },
       {
         "id": 3,
-        "img": "280x210M9Bayonet.png",
         "weapon type": "knife",
         "knife type": "M9 Bayonet",
         "skin": "Crimson Web",
@@ -29,7 +27,6 @@
         },
         {
         "id": 4,
-        "img": "280x210huntsman.png",
         "weapon type": "knife",
         "knife type": "Huntsman",
         "skin": "Bright Water",
@@ -38,7 +35,6 @@
         },
         {
         "id": 5,
-        "img": "280x210AWP.png",
         "weapon type": "Sniper rifle",
         "sniper type": "AWP",
         "skin": "Dragon Lore",
@@ -47,7 +43,6 @@
         },
         {
         "id": 6,
-        "img": "280x210AK-47.png",
         "weapon type": "Rifle",
         "Rifle type": "Ak-47",
         "skin": "Case Hardened",
@@ -56,7 +51,6 @@
         },
         {
         "id": 7,
-        "img": "280x210M4A4.png",
         "weapon type": "Rifle", 
         "Rifle type": "M4A4",
         "skin": "Howl",
@@ -65,7 +59,6 @@
         },
         {
         "id": 8,
-        "img": "280x210Falchion.png",
         "weapon type": "Knife",
         "knife type": "Falchion",
         "skin": "Gamma Doppler",
@@ -74,7 +67,6 @@
         },
         {
         "id": 9,
-        "img": "280x210Shadow_daggers.png",
         "weapon type": "Knife",
         "knife type": "Shadow Daggers",
         "skin": "Slaughter",
@@ -83,7 +75,6 @@
         },
         {
         "id": 10,
-        "img": "280x210Bayonet.png",
         "weapon type": "Knife",
         "knife type": "Bayonet",
         "skin": "Lore",
