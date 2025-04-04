@@ -1,5 +1,5 @@
 #Bronnen:
 #Info voor alle skins: CSFloat - Buy & Sell CS2 Skins on the Most Advanced Marketplace. (z.d.-b). CSFloat. Geraadpleegd op 2 april 2025, van https://csfloat.com/
 #Site om json server te runnen: My JSON Server - Fake online REST server for teams. (z.d.). Geraadpleegd op 3 april 2025, van https://my-json-server.typicode.com/
-#Voor de functies "print_formatted_data" en "response.status_code": Redirecting. (z.d.-c). Geraadpleegd op 3 april 2025, van https://copilot.cloud.microsoft/?fromCode=cmcv2&redirectId=87E4FDB7EC874AB4ADB20950201A36EC&auth=2
+#Voor de functies "print_formatted_data" en "response.status_code" en voor de sidebar van mijn site: Redirecting. (z.d.-c). Geraadpleegd op 3 april 2025, van https://copilot.cloud.microsoft/?fromCode=cmcv2&redirectId=87E4FDB7EC874AB4ADB20950201A36EC&auth=2
 #Site van de template: W3.CSS Template. (z.d.). Geraadpleegd op 3 april 2025, van https://www.w3schools.com/w3css/tryw3css_templates_food_blog.htm
