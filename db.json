@@ -21,8 +21,8 @@
         "weapon type": "knife",
         "knife type": "M9 Bayonet",
         "skin": "Crimson Web",
-        "price": 280.41,
-        "condition": "Field-Tested"
+        "price": 454.32,
+        "condition": "Minimal Wear"
         },
         {
         "id": 4,
@@ -95,8 +95,8 @@
         },
         {
             "id": 3,
-            "Pattern": "609",
-            "float": 0.354630947113
+            "Pattern": "85",
+            "float": 0.129335984588
         },
         {
             "id": 4,

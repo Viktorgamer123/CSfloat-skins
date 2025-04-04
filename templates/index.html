@@ -11,122 +11,137 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
 .w3-bar-block .w3-bar-item {padding:20px}
 </style>
 </head>
-<body>
 <body style="background-color:powderblue;">
 
-<div class="w3-top"> 
-    <div class="w3-xlarge" style="max-width:1200px;margin:auto"> 
-    <div class="w3-center w3-padding-16">Csgo Database</div>
-    </div>
+<!-- Sidebar -->
+<div class="w3-sidebar w3-bar-block w3-light-grey w3-card" style="width:200px;">
+  <h3 class="w3-bar-item">Select Category</h3>
+  <a href="#Knives" class="w3-bar-item w3-button">Knives</a>
+  <a href="#SniperRifles" class="w3-bar-item w3-button">Sniper Rifles</a>
+  <a href="#Rifles" class="w3-bar-item w3-button">Rifles</a>
 </div>
+
+<!-- Page Content -->
+<div style="margin-left:200px">
+
+<div class="w3-top"> 
+ <div class="w3-xlarge" style="max-width:1200px;margin:auto">
+ <div class="w3-center w3-padding-16">Csgo Database</div>
+ </div>
+</div>
+
 <!-- !PAGE CONTENT! -->
 <div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
 
-  <!-- First Photo Grid-->
-  <div class="w3-row-padding w3-padding-16 w3-center" id="Skins">
-    <div class="w3-quarter">
-      <img src="{{ url_for('static', filename='images/280x210.png') }}" alt="Karambit knife">
-      <h3>Knife: Karambit</h3>
-      <h3>Skin: Doppler</h3>
-      <h3>Condition: Factory New</h3>    
-      <h3>Pattern: 534</h3>
-      <h3>Float: 0.035707887262</h3>
-      <h3>Price: €12754.72</h3>
-    </div>
-    <div class="w3-quarter">
-      <img src="{{ url_for('static', filename='images/280x210butterfly.png') }}" alt="Butterfly knife">
-      <h3>Knife: Butterfly</h3>
-      <h3>Skin: Crimson Web</h3>
-      <h3>Condition: Field-Tested</h3>
-      <h3>Pattern: 609</h3>
-      <h3>Float: 0.354630947113</h3>
-      <h3>Price: €280.41</h3>
-    </div>
-    <div class="w3-quarter">
-      <img src="{{ url_for('static', filename='images/280x210huntsman.png') }}" alt="Huntsman knife">
-      <h3>Knife: Huntsman</h3>
-      <h3>Skin: Bright Water</h3>
-      <h3>Condition: Minimal Wear</h3>
-      <h3>Pattern: 797</h3>
-      <h3>Float: 0.141841828823</h3>
-      <h3>Price: €144.47</h3>
-    </div>
-    <div class="w3-quarter">
-      <img src="{{ url_for('static', filename='images/280x210AWP.png') }}" alt="AWP">
-      <h3>Sniper rifle: AWP</h3>
-      <h3>Skin: Dragon lore</h3>
-      <h3>Condition: Factory New</h3>
-      <h3>Pattern: 296</h3>
-      <h3>Float: 0.031255863607</h3>
-      <h3>Price: €15753.57</h3>
-    </div>
-    <div class="w3-quarter">
-        <img src="{{ url_for('static', filename='images/280x210AK-47.png') }}" alt="AK-47">
-        <h3>Rifle: AK-47</h3>
-        <h3>Skin: Case Hardened</h3>
-        <h3>Condition: Minimal Wear</h3>
-        <h3>Pattern: 640</h3>
-        <h3>Float: 0.095098018646</h3>
-        <h3>Price: €881.43</h3>
-      </div>
-      <div class="w3-quarter">
-        <img src="{{ url_for('static', filename='images/280x210M4A4.png') }}" alt="M4A4">
-        <h3>Rifle: M4A4</h3>
-        <h3>Skin: Howl</h3>
-        <h3>Condition: Factory New</h3>
-        <h3>Pattern: 136</h3>
-        <h3>Float: 0.009136962704</h3>
-        <h3>Price: €20000</h3>
-      </div>
-      <div class="w3-quarter">
-        <img src="{{ url_for('static', filename='images/280x210Falchion.png') }}" alt="Falchion">
-        <h3>Knife: Falchion</h3>
-        <h3>Skin: Gamma doppler</h3>
-        <h3>Condition: Factory New</h3>
-        <h3>Pattern: 242</h3>
-        <h3>Float: 0.027542160824</h3>
-        <h3>Price: €989.36</h3>
-      </div>
-      <div class="w3-quarter">
-        <img src="{{ url_for('static', filename='images/280x210Shadow_daggers.png') }}" alt="Shadow Daggers">
-        <h3>Knife: Shadow Daggers</h3>
-        <h3>Skin: Slaughter</h3>
-        <h3>Condition: Factory New</h3>
-        <h3>Pattern: 32</h3>
-        <h3>Float: 0.032092910260</h3>
-        <h3>Price: €166.80</h3>
-      </div>
-      <div class="w3-quarter">
-        <img src="{{ url_for('static', filename='images/280x210Bayonet.png') }}" alt="Bayonet">
-        <h3>Knife: Bayonet</h3>
-        <h3>Skin: Lore</h3>
-        <h3>Battle-Scarred</h3>
-        <h3>Pattern: 263</h3>
-        <h3>Float: 0.649931252003</h3>
-        <h3>Price: €313.61</h3>
-      </div>
-  </div>
-  
-  <!-- Footer -->
-  <footer class="w3-row-padding w3-padding-32">
-    <div class="w3-third">
-      <h3>Contacting</h3>
-      <p>Mail: CSfloat@gmail.com</p>
-      </p>Phone number: +32 123 456 789</p>
-      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
-    </div>
+ <!-- Knives Section -->
+ <div class="w3-row-padding w3-padding-16 w3-center" id="Knives">
+   <h2>Knives</h2>
+   <div class="w3-quarter">
+     <img src="{{ url_for('static', filename='images/280x210.png') }}" alt="Karambit knife">
+     <h3>Knife: Karambit</h3>
+     <h3>Skin: Doppler</h3>
+     <h3>Condition: Factory New</h3> 
+     <h3>Pattern: 534</h3>
+     <h3>Float: 0.035707887262</h3>
+     <h3>Price: €12754.72</h3>
+   </div>
+   <div class="w3-quarter">
+     <img src="{{ url_for('static', filename='images/280x210butterfly.png') }}" alt="Butterfly knife">
+     <h3>Knife: Butterfly</h3>
+     <h3>Skin: Autotronic</h3>
+     <h3>Condition: Minimal-Wear</h3>
+     <h3>Pattern: 88</h3>
+     <h3>Float: 0.096982210875</h3>
+     <h3>Price: €1881.14</h3>
+   </div>
+   <div class="w3-quarter">
+     <img src="{{ url_for('static', filename='images/280x210huntsman.png') }}" alt="Huntsman knife">
+     <h3>Knife: Huntsman</h3>
+     <h3>Skin: Bright Water</h3>
+     <h3>Condition: Minimal Wear</h3>
+     <h3>Pattern: 797</h3>
+     <h3>Float: 0.141841828823</h3>
+     <h3>Price: €144.47</h3>
+   </div>
+   <div class="w3-quarter">
+     <img src="{{ url_for('static', filename='images/280x210Falchion.png') }}" alt="Falchion">
+     <h3>Knife: Falchion</h3>
+     <h3>Skin: Gamma doppler</h3>
+     <h3>Condition: Factory New</h3>
+     <h3>Pattern: 242</h3>
+     <h3>Float: 0.027542160824</h3>
+     <h3>Price: €989.36</h3>
+   </div>
+   <div class="w3-quarter">
+     <img src="{{ url_for('static', filename='images/280x210Shadow_daggers.png') }}" alt="Shadow Daggers">
+     <h3>Knife: Shadow Daggers</h3>
+     <h3>Skin: Slaughter</h3>
+     <h3>Condition: Factory New</h3>
+     <h3>Pattern: 32</h3>
+     <h3>Float: 0.032092910260</h3>
+     <h3>Price: €166.80</h3>
+   </div>
+   <div class="w3-quarter">
+     <img src="{{ url_for('static', filename='images/280x210Bayonet.png') }}" alt="Bayonet">
+     <h3>Knife: Bayonet</h3>
+     <h3>Skin: Lore</h3>
+     <h3>Condition: Battle-Scarred</h3>
+     <h3>Pattern: 263</h3>
+     <h3>Float: 0.649931252003</h3>
+     <h3>Price: €313.61</h3>
+   </div>
+   <div class="w3-quarter">
+     <img src="{{ url_for('static', filename='images/280x210M9Bayonet.png') }}" alt="M9 Bayonet">
+     <h3>Knife: M9 Bayonet</h3>
+     <h3>Skin: Crimson web</h3>
+     <h3>Condition: Minimal-Wear</h3>
+     <h3>Pattern: 85</h3>
+     <h3>Float: 0.129335984588</h3>
+     <h3>Price: €454.32</h3>
+   </div>
+ </div>
 
-    <div class="w3-third w3-serif">
-      <h3>POPULAR TAGS</h3>
-      <p>
-        <span class="w3-tag w3-black w3-margin-bottom">New fever case</span> 
-        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">New skin finishes for certain knives</span> 
-      </p>
-    </div>
-  </footer>
+ <!-- Sniper Rifles Section -->
+ <div class="w3-row-padding w3-padding-16 w3-center" id="SniperRifles">
+   <h2>Sniper Rifles</h2>
+   <div class="w3-quarter">
+     <img src="{{ url_for('static', filename='images/280x210AWP.png') }}" alt="AWP">
+     <h3>Sniper rifle: AWP</h3>
+     <h3>Skin: Dragon lore</h3>
+     <h3>Condition: Factory New</h3>
+     <h3>Pattern: 296</h3>
+     <h3>Float: 0.031255863607</h3>
+     <h3>Price: €15753.57</h3>
+   </div>
+   <!-- Add other sniper rifles here -->
+ </div>
 
-<!-- End page content -->
-</div>
+ <!-- Rifles Section -->
+ <div class="w3-row-padding w3-padding-16 w3-center" id="Rifles">
+   <h2>Rifles</h2>
+   <div class="w3-quarter">
+     <img src="{{ url_for('static', filename='images/280x210AK-47.png') }}" alt="AK-47">
+     <h3>Rifle: AK-47</h3>
+     <h6>Skin: Case Hardened</h6>
+     <p>Condition: Minimal Wear<br>Pattern: 640<br>Float: 0.095098018646<br>Price: €881.43</p>
+   </div>
+   <div class="w3-quarter">
+     <img src="{{ url_for('static', filename='images/280x210M4A4.png') }}" alt="M4A4">
+     <h3>Rifle: M4A4</h3>
+     <h6>Skin: Howl</h6>
+     <p>Condition: Factory New<br>Pattern: 136<br>Float: 0.009136962704<br>Price: €20000</p>
+   </div>
+   <!-- Add other rifles here -->
+ </div>
 
-</body>
-</html>
+ <!-- Footer -->
+ <footer class="w3-row-padding w3-padding-32">
+   <div class="w3-third">
+     <h4>Contacting</h4>
+     <p>Email: CSfloat@gmail.com<br>Phone number: +32 123 456 789<br>Powered by 
+       <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+   </div>
+
+   <!-- Popular Tags -->
+   <div class="w4-third w4-serif">
+     <p><span class='w4-tag w4-black'>New fever case</span><span class='w4-tag w4-dark-grey'>New skin finishes for certain knives</span></p></footer></body></html>"
