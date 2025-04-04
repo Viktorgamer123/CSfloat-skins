@@ -5,6 +5,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
@@ -19,7 +20,8 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
   <!-- First Photo Grid-->
   <div class="w3-row-padding w3-padding-16 w3-center" id="Skins">
     <div class="w3-quarter">
-      <img src="Karambit.jpg" alt="Karambit" style="width:90%">
+      <img src="{{ url_for('static', filename='images/280x210.jpg') }}" alt="Karambit knife">
+      <h3>Knife: Karambit</h3>
       <h3>Skin: Doppler</h3>
       <h3>Condition: Factory New</h3>    
       <h3>Pattern: 534</h3>
@@ -27,7 +29,8 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
       <h3>Price: €12754.72</h3>
     </div>
     <div class="w3-quarter">
-      <img src="{{ url_for('static', filename='Karambit.jpg') }}" alt="Logo">
+      <img src="{{ url_for('static', filename='images/280x210butterfly.png') }}" alt="Butterfly knife">
+      <h3>Knife: Butterfly</h3>
       <h3>Skin: Crimson Web</h3>
       <h3>Condition: Field-Tested</h3>
       <h3>Pattern: 609</h3>
@@ -35,7 +38,8 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
       <h3>Price: €280.41</h3>
     </div>
     <div class="w3-quarter">
-      <img src="/w3images/cherries.jpg" alt="Huntsman" style="width:90%">
+      <img src="{{ url_for('static', filename='images/280x210huntsman.png') }}" alt="Huntsman knife">
+      <h3>Knife: Huntsman</h3>
       <h3>Skin: Bright Water</h3>
       <h3>Condition: Minimal Wear</h3>
       <h3>Pattern: 797</h3>
@@ -43,7 +47,8 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
       <h3>Price: €144.47</h3>
     </div>
     <div class="w3-quarter">
-      <img src="/w3images/wine.jpg" alt="AWP" style="width:90%">
+      <img src="{{ url_for('static', filename='images/280x210AWP.png') }}" alt="AWP">
+      <h3>Sniper rifle: AWP</h3>
       <h3>Skin: Dragon lore</h3>
       <h3>Condition: Factory New</h3>
       <h3>Pattern: 296</h3>
@@ -51,15 +56,17 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
       <h3>Price: €15753.57</h3>
     </div>
     <div class="w3-quarter">
-        <img src="/w3images/wine.jpg" alt="Ak-47" style="width:90%">
+        <img src="{{ url_for('static', filename='images/280x210AK-47.png') }}" alt="AK-47">
+        <h3>Rifle: AK-47</h3>
         <h3>Skin: Case Hardened</h3>
         <h3>Condition: Minimal Wear</h3>
         <h3>Pattern: 640</h3>
         <h3>Float: 0.095098018646</h3>
-        <h3>Price: €92483.70</h3>
+        <h3>Price: €881.43</h3>
       </div>
       <div class="w3-quarter">
-        <img src="/w3images/wine.jpg" alt="M4A4" style="width:90%">
+        <img src="{{ url_for('static', filename='images/280x210M4A4.png') }}" alt="M4A4">
+        <h3>Rifle: M4A4</h3>
         <h3>Skin: Howl</h3>
         <h3>Condition: Factory New</h3>
         <h3>Pattern: 136</h3>
@@ -67,15 +74,17 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
         <h3>Price: €20000</h3>
       </div>
       <div class="w3-quarter">
-        <img src="/w3images/wine.jpg" alt="Falchion" style="width:90%">
+        <img src="{{ url_for('static', filename='images/280x210Falchion.png') }}" alt="Falchion">
+        <h3>Knife: Falchion</h3>
         <h3>Skin: Gamma doppler</h3>
         <h3>Condition: Factory New</h3>
-        <h3>Pattern: 774</h3>
-        <h3>Float: 0.016431393102</h3>
-        <h3>Price: €1027.66</h3>
+        <h3>Pattern: 242</h3>
+        <h3>Float: 0.027542160824</h3>
+        <h3>Price: €989.36</h3>
       </div>
       <div class="w3-quarter">
-        <img src="/w3images/wine.jpg" alt="Shadow Daggers" style="width:90%">
+        <img src="{{ url_for('static', filename='images/280x210Shadow_daggers.png') }}" alt="Shadow Daggers">
+        <h3>Knife: Shadow Daggers</h3>
         <h3>Skin: Slaughter</h3>
         <h3>Condition: Factory New</h3>
         <h3>Pattern: 32</h3>
@@ -83,7 +92,8 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
         <h3>Price: €166.80</h3>
       </div>
       <div class="w3-quarter">
-        <img src="/w3images/wine.jpg" alt="Bayonet" style="width:90%">
+        <img src="{{ url_for('static', filename='images/280x210Bayonet.png') }}" alt="Bayonet">
+        <h3>Knife: Bayonet</h3>
         <h3>Skin: Lore</h3>
         <h3>Battle-Scarred</h3>
         <h3>Pattern: 263</h3>

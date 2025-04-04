@@ -45,7 +45,7 @@
         "weapon type": "Rifle",
         "Rifle type": "Ak-47",
         "skin": "Case Hardened",
-        "price": 92483.70,
+        "price": 881.43,
         "condition": "Minimal Wear"
         },
         {
@@ -61,7 +61,7 @@
         "weapon type": "Knife",
         "knife type": "Falchion",
         "skin": "Gamma Doppler",
-        "price": 1027.66,
+        "price": 989.36,
         "condition": "Factory New"
         },
         {
@@ -120,8 +120,8 @@
         },
         {
             "id": 8,
-            "Pattern": "774",
-            "float": 0.016431393102
+            "Pattern": "242",
+            "float": 0.027542160824
         },
         {
             "id": 9,
